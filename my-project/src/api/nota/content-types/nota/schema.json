@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notas",
+  "info": {
+    "singularName": "nota",
+    "pluralName": "notas",
+    "displayName": "nota"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}
